@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddReceipts">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:text="ENTER RECEIPT INFORMATION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:hint="Groceries, Clothes, Gas, etc"
+
+        />
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:hint="sams club, walmart, yonge station, etc"
+
+        />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:hint="20, 100"
+        android:inputType="numberDecimal"
+
+        />
+    <TextView
+        android:id="@+id/datetxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:text=""
+        />
+
+
+    <Button
+        android:id="@+id/datePickerbtn"
+        android:layout_width="wrap_content"
+        android:text="CHOOSE DATE"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/saveall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="NEXT" />
+
+</LinearLayout>

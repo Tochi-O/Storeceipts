@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "189877806582",
+    "project_id": "storeceipts",
+    "storage_bucket": "storeceipts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189877806582:android:b96f4131327af0a03c93d7",
+        "android_client_info": {
+          "package_name": "com.example.storeceipts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189877806582-634a7drndbpc37f335a3j6nc2vq0gdes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPGAW3YPtpbl8mtz1ZJipTEsqNJEHmt9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189877806582-634a7drndbpc37f335a3j6nc2vq0gdes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

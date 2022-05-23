@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linLayout"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/textViewmain"
+        android:layout_width="wrap_content"
+
+        android:textColor="@color/black"
+        android:layout_height="50dp"
+        android:text="YOUR RECEIPTS"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_width="104dp"
+            android:layout_marginEnd="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:text="SIGN OUT"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/newRecbtn"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:text="ADD NEW RECEIPT"
+            />
+        <Button
+            android:id="@+id/gotomonth"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:text="MONTH COLLECTIONS"
+            />
+        <Button
+            android:id="@+id/pricebtn"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:text="PRICE FILTER"
+            />
+
+        <ImageView
+            android:id="@+id/searchicon"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/searchicon" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerView"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
